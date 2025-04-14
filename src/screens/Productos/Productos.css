@@ -1,0 +1,54 @@
+.productos-page {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	width: 100vw;
+	max-width: 100%;
+	align-items: center;
+}
+
+.productos-container {
+	flex: 1;
+	padding: 2rem 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	max-width: 100% !important;
+}
+
+.productos-header {
+	text-align: center;
+	margin-bottom: 2.5rem;
+	width: 100%;
+}
+
+.productos-title {
+	margin-bottom: 1rem;
+	font-weight: 700;
+	color: #1976d2;
+	text-align: center;
+}
+
+.productos-greeting {
+	margin-bottom: 1.5rem;
+	color: #757575;
+	text-align: center;
+}
+
+.ver-pedidos-container {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2.5rem;
+	width: 100%;
+}
+
+.ver-pedidos-button {
+	padding: 0.75rem 2rem !important;
+	border-radius: 4px;
+	font-weight: 500 !important;
+}
+
+.productos-grid {
+	width: 100%;
+}
